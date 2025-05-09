@@ -1,0 +1,19 @@
+{
+  "name": "crawldocs",
+  "version": "1.0.0",
+  "description": "Utility for crawling a website and saving the contents to markdown format. Designed to scrape API documentation to save for local use by Cursor, Windsurf, or VS Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "jsdom": "^26.1.0",
+    "turndown": "^7.2.0",
+    "website-scraper": "^5.3.1",
+    "website-scraper-existing-directory": "^1.0.1"
+  }
+}
